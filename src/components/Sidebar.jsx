@@ -1,6 +1,6 @@
 import React from 'react';
 import device from '../assets/device.svg'; // Assuming you have a device icon
-import Profile from '../assets/profile.svg'; // Assuming you have a profile icon
+import Profile from '../assets/profile.png'; // Assuming you have a profile icon
 
 const Sidebar = () => {
   const menuItems = [
