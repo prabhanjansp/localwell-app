@@ -27,7 +27,7 @@ const AccountManagerCard = () => {
         </div>
         <div className="flex-1">
           <h3 className="text-base font-semibold text-gray-900 mb-1">Pallavi Rai</h3>
-          <p className="text-sm text-gray-500 mb-3">Customer Excellence Officer</p>
+          <p className="text-sm text-gray-500 font-medium mb-3">Customer Excellence Officer</p>
           
           <div className="space-y-2 text-sm ">
             <p className='font-semibold'>Hi, I'm Pallavi, Your L1 Account Manager</p>
@@ -43,7 +43,7 @@ const AccountManagerCard = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start gap-5 space-x-4">
+      <div className="flex flex-col place-items-start  gap-5 space-x-4">
         <button className="flex items-center space-x-2 text-sm ">
           <img
             src={mail}
